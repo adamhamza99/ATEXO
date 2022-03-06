@@ -1,0 +1,28 @@
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+#logo {
+    content: url("../img/title.png");
+    text-align: center;
+    margin-top: 5px;
+    width: 400px;
+    height: auto;
+}
+
+#img {
+    content: url("../img/clickme.png");
+    width: 300px;
+    margin-left: 43%;
+    display: flex;
+    cursor: pointer;
+}
+
+#img:hover {
+    opacity: 0.5;
+}
+
+.click {
+    cursor: pointer;
+}
