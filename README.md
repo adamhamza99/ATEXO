@@ -4,7 +4,7 @@
 
 ## Installation : 
 
-### Lancez le projet
+### Lancer le projet
 
 ``php bin/console server:run``
 
