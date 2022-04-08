@@ -6,9 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\DrawCardController' => $baseDir . '/src/Controller/DrawCardController.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-    'Collator' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Collator.php',
+    'Collator' => $vendorDir . '/symfony/intl/Resources/stubs/Collator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
@@ -1220,7 +1221,7 @@ return array(
     'Egulias\\EmailValidator\\Warning\\QuotedString' => $vendorDir . '/egulias/email-validator/src/Warning/QuotedString.php',
     'Egulias\\EmailValidator\\Warning\\TLD' => $vendorDir . '/egulias/email-validator/src/Warning/TLD.php',
     'Egulias\\EmailValidator\\Warning\\Warning' => $vendorDir . '/egulias/email-validator/src/Warning/Warning.php',
-    'IntlDateFormatter' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/IntlDateFormatter.php',
+    'IntlDateFormatter' => $vendorDir . '/symfony/intl/Resources/stubs/IntlDateFormatter.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'Laminas\\Code\\DeclareStatement' => $vendorDir . '/laminas/laminas-code/src/DeclareStatement.php',
     'Laminas\\Code\\Exception\\BadMethodCallException' => $vendorDir . '/laminas/laminas-code/src/Exception/BadMethodCallException.php',
@@ -1295,7 +1296,7 @@ return array(
     'Laminas\\Code\\Reflection\\PropertyReflection' => $vendorDir . '/laminas/laminas-code/src/Reflection/PropertyReflection.php',
     'Laminas\\Code\\Reflection\\ReflectionInterface' => $vendorDir . '/laminas/laminas-code/src/Reflection/ReflectionInterface.php',
     'Laminas\\Code\\Scanner\\DocBlockScanner' => $vendorDir . '/laminas/laminas-code/src/Scanner/DocBlockScanner.php',
-    'Locale' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/Locale.php',
+    'Locale' => $vendorDir . '/symfony/intl/Resources/stubs/Locale.php',
     'Monolog\\DateTimeImmutable' => $vendorDir . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',
     'Monolog\\ErrorHandler' => $vendorDir . '/monolog/monolog/src/Monolog/ErrorHandler.php',
     'Monolog\\Formatter\\ChromePHPFormatter' => $vendorDir . '/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php',
@@ -1408,7 +1409,7 @@ return array(
     'Monolog\\Test\\TestCase' => $vendorDir . '/monolog/monolog/src/Monolog/Test/TestCase.php',
     'Monolog\\Utils' => $vendorDir . '/monolog/monolog/src/Monolog/Utils.php',
     'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
-    'NumberFormatter' => $vendorDir . '/symfony/polyfill-intl-icu/Resources/stubs/NumberFormatter.php',
+    'NumberFormatter' => $vendorDir . '/symfony/intl/Resources/stubs/NumberFormatter.php',
     'PHPStan\\PhpDocParser\\Ast\\ConstExpr\\ConstExprArrayItemNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/ConstExpr/ConstExprArrayItemNode.php',
     'PHPStan\\PhpDocParser\\Ast\\ConstExpr\\ConstExprArrayNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/ConstExpr/ConstExprArrayNode.php',
     'PHPStan\\PhpDocParser\\Ast\\ConstExpr\\ConstExprFalseNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/ConstExpr/ConstExprFalseNode.php',
